@@ -1,14 +1,16 @@
-+++
-date = "2015-07-11T14:01:52Z"
-draft = true
-title = "welcome"
-+++
-#Heeeeeyyyyy
+---
+date : "2006-09-09"
+title:  "welcome"
+tags: ["jh", "dos"]
+description : "ejemplo descripcion"
+categories : ["cat1", "cat2"]
+---
 
-jelow you there
+# hgfhgfhgfh
 
+gjhgjhgjhgjh
+jhgjhgjhgjhgjhggj
+<!--more-->
 '''go
-package main 
-
-import "fmt"
+package main
 '''

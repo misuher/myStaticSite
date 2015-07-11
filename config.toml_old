@@ -1,0 +1,16 @@
+languageCode = "es-es"
+title = "Mi sitio"
+theme="Aglaus"
+bind="192.168.1.4"
+baseUrl="http://192.168.1.4/"
+port="8080"
+paginate=9
+
+[params]
+	github="misuher"
+
+[permalinks]
+	post = "/:year/:month/:day/:title/"
+
+[MetadataFormat]
+	

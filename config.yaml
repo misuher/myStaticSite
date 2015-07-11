@@ -1,0 +1,31 @@
+BaseUrl: "http://192.168.1.4"
+builddrafts: false
+LanguageCode: "es-es"
+Title: "Eyy"
+Theme: "beg"
+
+Params:
+  Author: "Carlos Castillo"
+  DateForm: "Mon, Jan 2, 2006"
+  Github: "misuher"
+  Linkedin: "carlos-castillo-cava/87/34/309"
+  ShowRelatedPost: True
+  Disqus: "unresolved"
+  SyntaxHighlightTheme: "github.min.css"
+  SidebarRecentLimit: 5
+
+Indexes:
+  tag: "tags"
+
+permalinks:
+  post: /blog/:year/:month/:day/:slug/
+
+metaDataFormat: "yaml"
+
+blackfriday:
+  angledQuotes: true
+  fractions: false
+  plainIdAnchors: true
+  extensions:
+    - hardLineBreak
+

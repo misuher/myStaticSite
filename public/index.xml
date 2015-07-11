@@ -1,13 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mi sitio </title>
-    <link>192.168.1.4/</link>
+    <title>Eyy </title>
+    <link>http://192.168.1.4:8080/</link>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 1</rights>
-    <updated>0001-01-01 00:00:00 &#43;0000 UTC</updated>
+    <author>Carlos Castillo</author>
+    <rights>(C) 2015</rights>
+    <updated>2015-07-11 17:08:25 &#43;0000 UTC</updated>
 
+    
+      
+        <item>
+          <title>otro</title>
+          <link>http://192.168.1.4:8080/blog/2015/07/11/otro/</link>
+          <pubDate>Sat, 11 Jul 2015 17:08:25 UTC</pubDate>
+          <author>Carlos Castillo</author>
+          <guid>http://192.168.1.4:8080/blog/2015/07/11/otro/</guid>
+          <description>&lt;blockquote&gt;
+&lt;p&gt;iuyiuyiuyiuy&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+
+ $ go get github.com/spf13/nitro
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>welcome</title>
+          <link>http://192.168.1.4:8080/blog/2006/09/09/welcome/</link>
+          <pubDate>Sat, 09 Sep 2006 00:00:00 UTC</pubDate>
+          <author>Carlos Castillo</author>
+          <guid>http://192.168.1.4:8080/blog/2006/09/09/welcome/</guid>
+          <description>
+
+&lt;h1 id=&#34;hgfhgfhgfh&#34;&gt;hgfhgfhgfh&lt;/h1&gt;
+
+&lt;p&gt;gjhgjhgjhgjh&lt;br /&gt;
+jhgjhgjhgjhgjhggj&lt;/p&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;lsquo;go&lt;br /&gt;
+package main&lt;br /&gt;
+&amp;rdquo;&amp;rsquo;&lt;/p&gt;
+</description>
+        </item>
+      
     
 
   </channel>
