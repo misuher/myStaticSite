@@ -2,32 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eyy </title>
-    <link>http://192.168.1.4:8080/</link>
+    <link>http://192.168.1.4:60000/</link>
     <language>en-us</language>
     <author>Carlos Castillo</author>
     <rights>(C) 2015</rights>
-    <updated>2015-07-11 17:08:25 &#43;0000 UTC</updated>
+    <updated>2015-07-11 19:18:12 &#43;0000 UTC</updated>
 
     
       
         <item>
-          <title>otro</title>
-          <link>http://192.168.1.4:8080/blog/2015/07/11/otro/</link>
-          <pubDate>Sat, 11 Jul 2015 17:08:25 UTC</pubDate>
+          <title>Crear un servicio en Linux</title>
+          <link>http://192.168.1.4:60000/blog/2015/07/11/crear-un-servicio-en-linux/</link>
+          <pubDate>Sat, 11 Jul 2015 19:18:12 UTC</pubDate>
           <author>Carlos Castillo</author>
-          <guid>http://192.168.1.4:8080/blog/2015/07/11/otro/</guid>
-          <description>&lt;blockquote&gt;
-&lt;p&gt;iuyiuyiuyiuy&lt;/p&gt;
-&lt;/blockquote&gt;
+          <guid>http://192.168.1.4:60000/blog/2015/07/11/crear-un-servicio-en-linux/</guid>
+          <description>&lt;p&gt;Los servicios de linux son útiles a la hora de gestionar daemons del sistema y de hacer que se ejecuten al arrancar el sistema.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Los servicios son recurson alojados en la carpeta &lt;code&gt;/etc/init.d/&lt;/code&gt;.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;package main
+&lt;pre&gt;&lt;code&gt;$vim /etc/init.d/miServicio
+&lt;/code&gt;&lt;/pre&gt;
 
-import &amp;quot;fmt&amp;quot;
+&lt;p&gt;Dentro de este archivo escribiremos el siguiente contenido en bash:&lt;/p&gt;
 
+&lt;pre&gt;&lt;code&gt;#! /bin/sh
 
- $ go get github.com/spf13/nitro
+ ### BEGIN INIT INFO
+# Provides: miServicio
+# Required-Start: $network $local_fs $remote_fs
+# Required-Stop: $network $local_fs $remote_fs
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: miServicio script.
+# Description: Ejemplo de como crear un servio en Linux.
+### END INIT INFO
+
+NAME=miServicio
+DESC=&amp;quot;Demonio de miServicio&amp;quot;
+PIDFILE=&amp;quot;/var/run/${NAME}.pid&amp;quot;
+LOGFILE=&amp;quot;/var/log/${NAME}.log&amp;quot;
+
+#ruta del script que invoca el servicio
+DAEMON=&amp;quot;/ruta/a/script.sh&amp;quot;
+
+. /lib/lsb/init-funtions
+
+do_start(){
+    log_daemon_msg &amp;quot;Arrancando demonio $NAME&amp;quot;
+    start-stop-daemon --start --background --pidfile $PIDFILE --make-pidfile --startas $DAEMON
+    log_end_msg $?
+}
+
+do_stop () {
+        log_daemon_msg &amp;quot;Matando el demonio $NAME&amp;quot;
+        start-stop-daemon --stop --pidfile $PIDFILE --retry 10
+        log_end_msg $?
+}
+
+case &amp;quot;$1&amp;quot; in
+    start)
+        do_start
+        ;;
+    stop)
+        do_stop
+        ;;
+restart|force-reload)
+        do_stop
+    do_start
+        ;;
+status)
+    status_of_proc &amp;quot;$NAME&amp;quot; &amp;quot;$DAEMON&amp;quot; &amp;amp;&amp;amp; exit 0 || exit $?
+    ;;
+    *)
+        N=/etc/init.d/$NAME
+        echo &amp;quot;Usage: $N {start|stop|restart|force-reload}&amp;quot; &amp;gt;&amp;amp;2
+        exit 1
+        ;;
+esac
+
+exit 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Por ultimo habrá que darle permisos de ejecución:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$sudo chmod +x /etc/init.d/miServicio
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Si todo ha ido bien ahora podremos iniciar y parar el servicio con tan solo hacer:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$sudo service miServicio start
+$sudo service miServicio stop
+$sudo service miServicio restart
+$sudo service miServicio status
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Con todo esto tenemos el servicio, pero para que se autoejecute al iniciar el sistema tenemos que indicarselo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$sudo update-rc.d miServicio defaults
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>
@@ -35,21 +106,25 @@ import &amp;quot;fmt&amp;quot;
     
       
         <item>
-          <title>welcome</title>
-          <link>http://192.168.1.4:8080/blog/2006/09/09/welcome/</link>
-          <pubDate>Sat, 09 Sep 2006 00:00:00 UTC</pubDate>
+          <title>Reload .bashrc</title>
+          <link>http://192.168.1.4:60000/blog/2015/07/11/reload-.bashrc/</link>
+          <pubDate>Sat, 11 Jul 2015 00:00:00 UTC</pubDate>
           <author>Carlos Castillo</author>
-          <guid>http://192.168.1.4:8080/blog/2006/09/09/welcome/</guid>
-          <description>
+          <guid>http://192.168.1.4:60000/blog/2015/07/11/reload-.bashrc/</guid>
+          <description>&lt;p&gt;Muchas veces modificamos nuestro archivo .bashrc en nuestro Linux pero al salir los cambios aún no han tomado efecto.&lt;/p&gt;
 
-&lt;h1 id=&#34;hgfhgfhgfh&#34;&gt;hgfhgfhgfh&lt;/h1&gt;
+&lt;p&gt;Si estamos en un entorno gráfico al abrir otra terminal tendriamos el problema resuelto,¿Pero que pasa en entornos no gráficos como cuando conectamos a un servidor por SSH?En ese caso solo podemos recurrir a comandos.&lt;/p&gt;
 
-&lt;p&gt;gjhgjhgjhgjh&lt;br /&gt;
-jhgjhgjhgjhgjhggj&lt;/p&gt;
+&lt;p&gt;Hay dos opciones:&lt;br /&gt;
+1.&lt;/p&gt;
 
-&lt;p&gt;&amp;rdquo;&amp;lsquo;go&lt;br /&gt;
-package main&lt;br /&gt;
-&amp;rdquo;&amp;rsquo;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$source ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$. ~/bashrc
+&lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>
       
