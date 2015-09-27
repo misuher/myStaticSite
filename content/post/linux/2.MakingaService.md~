@@ -83,7 +83,3 @@ Si todo ha ido bien ahora podremos iniciar y parar el servicio con tan solo hace
 Con todo esto tenemos el servicio, pero para que se autoejecute al iniciar el sistema tenemos que indicarselo:
 
 	$sudo update-rc.d miServicio defaults
-
-Si en algún momento queremos que no se inicie:
-
-	$sudo update-rc.d -f miServicio remove
