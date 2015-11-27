@@ -1,8 +1,8 @@
-baseurl = "www.misuher.com/blog"
-languageCode = "es-es"
-title = "Misublog"
+baseurl = "www.yourdomain.com"
+languageCode = "en-us"
+title = "Icarus"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "misuher"
+disqusShortname = "spf13"
 # Define the number of posts per site
 paginate = 10
 theme = "hugo-icarus-theme"
@@ -14,10 +14,10 @@ theme = "hugo-icarus-theme"
 
 [params]
     # Tell me who you're
-    author = "Misuher"
-    bio = "Aeronautico -Programador - Gopher"
+    author = "John Doe"
+    bio = "Blogger - Programmer - Gopher"
     location = "Earth"
-    site_description = "bonito, bonito"
+    site_description = ""
     copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
 
     # Enable Google Analytics by entering your tracking code
@@ -49,14 +49,14 @@ theme = "hugo-icarus-theme"
 
 # Enter a link for the follow button on the left
 [params.profile]
-    follow_button = "https://github.com/misuher"
+    follow_button = "https://github.com/digitalcraftsman"
 
 
 [social]
 # Add your social network accounts to the profile section on the left
 # by entering your username. The links to your account will be
 # create automatically.
-    github          = "Rinchler"
+    github          = "digitalcraftsman"
     bitbucket       = ""
     jsfiddle        = ""
     codepen         = ""
@@ -73,7 +73,7 @@ theme = "hugo-icarus-theme"
     wordpress       = ""
     tumblr          = ""
     xing            = ""
-    linkedin        = "Carlos Castillo"
+    linkedin        = ""
     slideshare      = ""
     stackoverflow   = ""
     reddit          = ""
@@ -82,7 +82,7 @@ theme = "hugo-icarus-theme"
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = "misuher"
+    twitter         = "spf13"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]

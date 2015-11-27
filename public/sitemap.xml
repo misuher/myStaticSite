@@ -2,19 +2,124 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://192.168.1.4:60000/</loc>
-    <lastmod>2015-07-11T19:18:12+00:00</lastmod>
+    <loc>http://www.misuher.com/blog/</loc>
+    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://192.168.1.4:60000/blog/2015/07/11/crear-un-servicio-en-linux/</loc>
+    <loc>http://www.misuher.com/blog/2015/10/10/introducing-icarus-and-its-features</loc>
+    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/10/10/migrate-from-jekyll</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/10/02/linked-post</loc>
+    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/09/17/go-is-for-lovers</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/08/06/6.includes</loc>
+    <lastmod>2015-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/08/05/5.usandoexternaldata</loc>
+    <lastmod>2015-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/08/04/4.filtros</loc>
+    <lastmod>2015-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/08/03/hugo-is-for-lovers</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/08/03/3.controladores</loc>
+    <lastmod>2015-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/08/02/2.expresiones</loc>
+    <lastmod>2015-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/08/01/1.directivas</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/08/01/6.writing-config-menu</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/07/31/5.writing-test</loc>
+    <lastmod>2015-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/07/30/3.package-en-javascript</loc>
+    <lastmod>2015-07-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/07/30/1.crear-un-package</loc>
+    <lastmod>2015-07-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/07/30/2.package-en-coffeescript</loc>
+    <lastmod>2015-07-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/07/30/4.atom-api</loc>
+    <lastmod>2015-07-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/07/13/averiguar-ip-publica</loc>
+    <lastmod>2015-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/07/13/averiguar-ip-publica</loc>
+    <lastmod>2015-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/07/11/crear-un-servicio-en-linux</loc>
     <lastmod>2015-07-11T19:18:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://192.168.1.4:60000/blog/2015/07/11/reload-.bashrc/</loc>
+    <loc>http://www.misuher.com/blog/2015/07/11/reload-.bashrc</loc>
     <lastmod>2015-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/07/11/correr-comando-en-background</loc>
+    <lastmod>2015-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.misuher.com/blog/2015/06/24/creating-a-new-theme</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
 </urlset>

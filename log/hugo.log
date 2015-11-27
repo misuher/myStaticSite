@@ -1,3 +1,1 @@
-ERROR: 2015/07/11 Unable to locate Config file. Perhaps you need to create a new site. Run `hugo help new` for details
-ERROR: 2015/07/11 Unable to find Static Directory: /home/pi/static/
-CRITICAL: 2015/07/11 No source directory found, expecting to find it at /home/pi/content
+ERROR: 2015/08/03 Error parsing config: yaml: line 20: could not find expected ':'
