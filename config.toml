@@ -1,4 +1,4 @@
-baseurl = "www.misuher.com/blog"
+baseurl = "localhost:1313/blog"
 languageCode = "es-es"
 title = "Misublog"
 # Enable comments by entering your Disqus shortname
@@ -9,7 +9,7 @@ theme = "hugo-icarus-theme"
 
 
 [permalinks]
-    post = "/:year/:month/:day/:slug"
+    post = ":year/:month/:day/:slug"
 
 
 [params]
@@ -18,7 +18,7 @@ theme = "hugo-icarus-theme"
     bio = "Aeronautico -Programador - Gopher"
     location = "Earth"
     site_description = "bonito, bonito"
-    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+    copyright  = ""
 
     # Enable Google Analytics by entering your tracking code
     google_analytics = ""
@@ -36,6 +36,11 @@ theme = "hugo-icarus-theme"
     before = true
     label  = "Home"
     link   = "/"
+
+[[params.menu]]
+    before = true
+    label  = "markdown"
+    link   = "markdown/"
 
 [[params.menu]]
     before = false
@@ -73,7 +78,7 @@ theme = "hugo-icarus-theme"
     wordpress       = ""
     tumblr          = ""
     xing            = ""
-    linkedin        = "Carlos Castillo"
+    linkedin        = ""
     slideshare      = ""
     stackoverflow   = ""
     reddit          = ""
@@ -82,11 +87,11 @@ theme = "hugo-icarus-theme"
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = "misuher"
+    twitter         = "misu"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    recent_articles = true
-    categories = true
-    tags = true
+    recent_articles = false
+    categories = false
+    tags = false
     tag_cloud = true

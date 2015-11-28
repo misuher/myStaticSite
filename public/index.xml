@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Misublog</title>
-    <link>http://www.misuher.com/blog/</link>
+    <link>localhost/blog/</link>
     <description>Recent content on Misublog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Sat, 10 Oct 2015 16:56:43 +0200</lastBuildDate>
-    <atom:link href="http://www.misuher.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="localhost/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Introducing Icarus and it&#39;s features</title>
-      <link>http://www.misuher.com/blog/2015/10/10/introducing-icarus-and-its-features</link>
+      <link>/localhost/blog/2015/10/10/introducing-icarus-and-its-features</link>
       <pubDate>Sat, 10 Oct 2015 16:56:43 +0200</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/10/10/introducing-icarus-and-its-features</guid>
+      <guid>/localhost/blog/2015/10/10/introducing-icarus-and-its-features</guid>
       <description>
 
 &lt;p&gt;Icarus is a responsive and customizable theme for bloggers. It&amp;rsquo;s a port of the same-named theme for &lt;a href=&#34;//hexo.io&#34;&gt;Hexo&lt;/a&gt; made by &lt;a href=&#34;https://github.com/ppoffice&#34;&gt;Ruipeng Zhang&lt;/a&gt;. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code, optional widgets for the sidebar and a handful &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34;&gt;shortcodes&lt;/a&gt; to make your life easier.&lt;/p&gt;
@@ -137,24 +137,24 @@ menu = &amp;quot;main&amp;quot;
 
 &lt;p&gt;&lt;strong&gt;Note: In order to prevent the execution of the shortcodes I added a space between &lt;code&gt;{{&lt;/code&gt; and &lt;code&gt;&amp;lt;&lt;/code&gt; at the beginning and the end of the shortcode. Revert this after copying.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;article-gallery&#34;&gt;
+&lt;div class=&#34;article-gallery&#34;&gt;
     &lt;div class=&#34;article-gallery-photos&#34;&gt;
         
-        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://www.misuher.com/blog/banners/placeholder.png&#34; rel=&#34;group1&#34;&gt;
-            &lt;img src=&#34;http://www.misuher.com/blog/banners/placeholder.png&#34; itemprop=&#34;image&#34;&gt;
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;localhost/blog/banners/placeholder.png&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;localhost/blog/banners/placeholder.png&#34; itemprop=&#34;image&#34;&gt;
         &lt;/a&gt;
         
-        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://www.misuher.com/blog/banners/placeholder.png&#34; rel=&#34;group1&#34;&gt;
-            &lt;img src=&#34;http://www.misuher.com/blog/banners/placeholder.png&#34; itemprop=&#34;image&#34;&gt;
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;localhost/blog/banners/placeholder.png&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;localhost/blog/banners/placeholder.png&#34; itemprop=&#34;image&#34;&gt;
         &lt;/a&gt;
         
-        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://www.misuher.com/blog/banners/placeholder.png&#34; rel=&#34;group1&#34;&gt;
-            &lt;img src=&#34;http://www.misuher.com/blog/banners/placeholder.png&#34; itemprop=&#34;image&#34;&gt;
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;localhost/blog/banners/placeholder.png&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;localhost/blog/banners/placeholder.png&#34; itemprop=&#34;image&#34;&gt;
         &lt;/a&gt;
         
     &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 
 &lt;h3 id=&#34;github-gists:33ea911532f0c95309659f2412cd62cb&#34;&gt;Github Gists&lt;/h3&gt;
 
@@ -165,7 +165,7 @@ menu = &amp;quot;main&amp;quot;
 
 &lt;p&gt;Note, that this only works with public gists since authentification is not supported.&lt;/p&gt;
 
-&lt;p&gt;&lt;script src=&#34;https://gist.github.com/digitalcraftsman/85f59771b5ae1e2091a8.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;script src=&#34;//gist.github.com/85f59771b5ae1e2091a8/
 
 &lt;h3 id=&#34;jsfidde:33ea911532f0c95309659f2412cd62cb&#34;&gt;JSFidde&lt;/h3&gt;
 
@@ -176,12 +176,12 @@ menu = &amp;quot;main&amp;quot;
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;iframe
+&lt;iframe
   style=&#34;width: 100%; height: auto;&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;
   src=&#34;https://jsfiddle.net/zalun/NmudS/embedded/&#34;&gt;
 &lt;/iframe&gt;
 &lt;br&gt;&lt;br&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;As descibed in the &lt;a href=&#34;http://doc.jsfiddle.net/use/embedding.html&#34;&gt;docs of JSFiddle&lt;/a&gt;, you can define which tabs will be shown. Enter the tabs you want to see separated by a comma in the &lt;code&gt;tabs&lt;/code&gt; parameter.&lt;/p&gt;
 
@@ -190,12 +190,12 @@ menu = &amp;quot;main&amp;quot;
 
 &lt;p&gt;Do you see the difference?&lt;/p&gt;
 
-&lt;p&gt;&lt;iframe
+&lt;iframe
   style=&#34;width: 100%; height: auto;&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;
   src=&#34;https://jsfiddle.net/zalun/NmudS/embedded/html,result/&#34;&gt;
 &lt;/iframe&gt;
 &lt;br&gt;&lt;br&gt;
-&lt;/p&gt;
+
 
 &lt;h3 id=&#34;vimeo-and-youtube:33ea911532f0c95309659f2412cd62cb&#34;&gt;Vimeo and Youtube&lt;/h3&gt;
 
@@ -206,21 +206,22 @@ menu = &amp;quot;main&amp;quot;
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;video-container&#34;&gt;
-&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;br&gt;&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 
 &lt;pre&gt;&lt;code&gt;{{ &amp;lt; vimeo &amp;quot;137643804&amp;quot; &amp;gt; }}
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;video-container&#34;&gt;
-&lt;iframe src=&#34;http://player.vimeo.com/video/137643804&#34; frameborder=&#34;0&#34; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//player.vimeo.com/video/137643804&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
 
 &lt;h2 id=&#34;nearly-finished:33ea911532f0c95309659f2412cd62cb&#34;&gt;Nearly finished&lt;/h2&gt;
 
@@ -247,10 +248,10 @@ menu = &amp;quot;main&amp;quot;
     
     <item>
       <title>Migrate from Jekyll</title>
-      <link>http://www.misuher.com/blog/2015/10/10/migrate-from-jekyll</link>
+      <link>/localhost/blog/2015/10/10/migrate-from-jekyll</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/10/10/migrate-from-jekyll</guid>
+      <guid>/localhost/blog/2015/10/10/migrate-from-jekyll</guid>
       <description>
 
 &lt;h2 id=&#34;move-static-content-to-static:964c172ef5e837f03573891408d8d631&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
@@ -275,7 +276,7 @@ With Jekyll, something that looked like&lt;/p&gt;
 
 &lt;h2 id=&#34;create-your-hugo-configuration-file:964c172ef5e837f03573891408d8d631&#34;&gt;Create your Hugo configuration file&lt;/h2&gt;
 
-&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;http://www.misuher.com/blog/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;localhost/blog/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
 
 &lt;h2 id=&#34;set-your-configuration-publish-folder-to-site:964c172ef5e837f03573891408d8d631&#34;&gt;Set your configuration publish folder to &lt;code&gt;_site&lt;/code&gt;&lt;/h2&gt;
 
@@ -301,13 +302,13 @@ git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
 
 &lt;h2 id=&#34;convert-jekyll-templates-to-hugo-templates:964c172ef5e837f03573891408d8d631&#34;&gt;Convert Jekyll templates to Hugo templates&lt;/h2&gt;
 
-&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;http://www.misuher.com/blog/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;localhost/blog/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
 
 &lt;p&gt;As a single reference data point, converting my templates for &lt;a href=&#34;http://heyitsalex.net/&#34;&gt;heyitsalex.net&lt;/a&gt; took me no more than a few hours.&lt;/p&gt;
 
 &lt;h2 id=&#34;convert-jekyll-plugins-to-hugo-shortcodes:964c172ef5e837f03573891408d8d631&#34;&gt;Convert Jekyll plugins to Hugo shortcodes&lt;/h2&gt;
 
-&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;http://www.misuher.com/blog/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
+&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;localhost/blog/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
 
 &lt;h3 id=&#34;implementation:964c172ef5e837f03573891408d8d631&#34;&gt;Implementation&lt;/h3&gt;
 
@@ -424,10 +425,10 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
     
     <item>
       <title>Linked post</title>
-      <link>http://www.misuher.com/blog/2015/10/02/linked-post</link>
+      <link>/localhost/blog/2015/10/02/linked-post</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/10/02/linked-post</guid>
+      <guid>/localhost/blog/2015/10/02/linked-post</guid>
       <description>&lt;p&gt;I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;menu = &amp;quot;main&amp;quot;
@@ -443,10 +444,10 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
     
     <item>
       <title>Go is for lovers</title>
-      <link>http://www.misuher.com/blog/2015/09/17/go-is-for-lovers</link>
+      <link>/localhost/blog/2015/09/17/go-is-for-lovers</link>
       <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/09/17/go-is-for-lovers</guid>
+      <guid>/localhost/blog/2015/09/17/go-is-for-lovers</guid>
       <description>
 
 &lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;html/template&lt;/a&gt; library for
@@ -505,7 +506,7 @@ functions.&lt;/p&gt;
 &lt;p&gt;Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-&lt;a href=&#34;http://www.misuher.com/blog/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
+&lt;a href=&#34;localhost/blog/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
 
 &lt;p&gt;A variable is accessed by referencing the variable name.&lt;/p&gt;
 
@@ -522,7 +523,7 @@ page you are rendering. More details are available on the
 
 &lt;p&gt;Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. &lt;a href=&#34;http://www.misuher.com/blog/layout/functions&#34;&gt;Hugo template
+available functions with their own. &lt;a href=&#34;localhost/blog/layout/functions&#34;&gt;Hugo template
 functions&lt;/a&gt; provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -710,7 +711,7 @@ you want to inside of your templates.&lt;/p&gt;
 &lt;h2 id=&#34;using-content-page-parameters:08cfabf6312c9fe10477f4bc9e27bdd5&#34;&gt;Using Content (page) Parameters&lt;/h2&gt;
 
 &lt;p&gt;In each piece of content you can provide variables to be used by the
-templates. This happens in the &lt;a href=&#34;http://www.misuher.com/blog/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
+templates. This happens in the &lt;a href=&#34;localhost/blog/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
@@ -789,19 +790,19 @@ so, such as in this example:&lt;/p&gt;
     
     <item>
       <title>6.Includes</title>
-      <link>http://www.misuher.com/blog/2015/08/06/6.includes</link>
+      <link>/localhost/blog/2015/08/06/6.includes</link>
       <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/08/06/6.includes</guid>
+      <guid>/localhost/blog/2015/08/06/6.includes</guid>
       <description>&lt;p&gt;Angular tiene su propia forma de hacer html reusable incluyendo el html de un archivo dentro de otro&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;para ellos se usa una directiva que no mencioné en el capitulo 1, es &lt;code&gt;ng-include&lt;/code&gt;.&lt;/p&gt;
@@ -818,19 +819,19 @@ so, such as in this example:&lt;/p&gt;
     
     <item>
       <title>5.UsandoExternalData</title>
-      <link>http://www.misuher.com/blog/2015/08/05/5.usandoexternaldata</link>
+      <link>/localhost/blog/2015/08/05/5.usandoexternaldata</link>
       <pubDate>Wed, 05 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/08/05/5.usandoexternaldata</guid>
+      <guid>/localhost/blog/2015/08/05/5.usandoexternaldata</guid>
       <description>&lt;p&gt;Digamos que en www.ejemplo.com/json nos mandan un objeto de datos JSON que queremos usar en nuestra página&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;El JSON que nos dan tiene la siguiente forma:
@@ -872,19 +873,19 @@ app.controller(&#39;myCtrl&#39;, function($scope, $http) {
     
     <item>
       <title>4.Filtros</title>
-      <link>http://www.misuher.com/blog/2015/08/04/4.filtros</link>
+      <link>/localhost/blog/2015/08/04/4.filtros</link>
       <pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/08/04/4.filtros</guid>
+      <guid>/localhost/blog/2015/08/04/4.filtros</guid>
       <description>&lt;p&gt;Los filtros sirven para transformar, ordenar o seleccionar subconjuntos entre los datos de la aplicación&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Los filtros se definen dentro de una expresión  separándola con el símbolo | y a continuación indicando el tipo de filtro.
@@ -924,10 +925,10 @@ Los tipos de filtros son:
     
     <item>
       <title>Hugo is for lovers</title>
-      <link>http://www.misuher.com/blog/2015/08/03/hugo-is-for-lovers</link>
+      <link>/localhost/blog/2015/08/03/hugo-is-for-lovers</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/08/03/hugo-is-for-lovers</guid>
+      <guid>/localhost/blog/2015/08/03/hugo-is-for-lovers</guid>
       <description>
 
 &lt;h2 id=&#34;step-1-install-hugo:88aac7a07addfbee771d05b85cb8c827&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
@@ -937,7 +938,7 @@ appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://www.misuher.com/blog/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;localhost/blog/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;step-2-build-the-docs:88aac7a07addfbee771d05b85cb8c827&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
 
@@ -1011,19 +1012,19 @@ Having nearly instant feedback enables you to have your creativity flow without 
     
     <item>
       <title>3.Controladores</title>
-      <link>http://www.misuher.com/blog/2015/08/03/3.controladores</link>
+      <link>/localhost/blog/2015/08/03/3.controladores</link>
       <pubDate>Mon, 03 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/08/03/3.controladores</guid>
+      <guid>/localhost/blog/2015/08/03/3.controladores</guid>
       <description>&lt;p&gt;Los controladores sirven para manejar los datos de la aplicación AngularJS&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;El controlador recupera los datos de la aplicación y los modifica. Para recuperar los variables de la aplicación, AngularJS define la aplicación como un objeto $scope bajo el cual se definen las variables(creandolas con ng-init o ng-model). Así si queremos modificar una variable desde nuestro controlador se hará de la forma:&lt;/p&gt;
@@ -1090,19 +1091,19 @@ app.controler(&#39;myCtrl&#39;, function($scope){
     
     <item>
       <title>2.Expresiones</title>
-      <link>http://www.misuher.com/blog/2015/08/02/2.expresiones</link>
+      <link>/localhost/blog/2015/08/02/2.expresiones</link>
       <pubDate>Sun, 02 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/08/02/2.expresiones</guid>
+      <guid>/localhost/blog/2015/08/02/2.expresiones</guid>
       <description>&lt;p&gt;Las expresiones es una forma análoga a ng-bind y son intercambiables. Se definen entre llaves dobles: {{expresión}}&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Tal y como lo hemos definido es lo mismo escribir cualquiera de las siguientes líneas:&lt;/p&gt;
@@ -1125,19 +1126,19 @@ app.controler(&#39;myCtrl&#39;, function($scope){
     
     <item>
       <title>1.Directivas</title>
-      <link>http://www.misuher.com/blog/2015/08/01/1.directivas</link>
+      <link>/localhost/blog/2015/08/01/1.directivas</link>
       <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/08/01/1.directivas</guid>
+      <guid>/localhost/blog/2015/08/01/1.directivas</guid>
       <description>&lt;p&gt;Las directivas son atributos HTML que empiezan por ng- definidas por AngularJS&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/01/1.directivas&#34;&gt;1. Directivas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/02/2.expresiones&#34;&gt;2. Expresiones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/03/3.controladores&#34;&gt;3. Controladores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/04/4.filtros&#34;&gt;4. Filtros&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/05/5.usandoexternaldata&#34;&gt;5. Usando datos de otro servidor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/06/6.includes&#34;&gt;6. Includes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Para que las directivas queden definidas lo primero que debemos de hacer es importar AngularJS, lo más sencillo es usar los repositorios de google&lt;/p&gt;
@@ -1201,21 +1202,21 @@ app.controler(&#39;myCtrl&#39;, function($scope){
     
     <item>
       <title>6.writing config menu</title>
-      <link>http://www.misuher.com/blog/2015/08/01/6.writing-config-menu</link>
+      <link>/localhost/blog/2015/08/01/6.writing-config-menu</link>
       <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/08/01/6.writing-config-menu</guid>
+      <guid>/localhost/blog/2015/08/01/6.writing-config-menu</guid>
       <description>
 
 &lt;p&gt;En esta sexta parte vamos a ver como escribir un menu de configuración para el package&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/1.crear-un-package&#34;&gt;1. Estructura de un package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/2.package-en-coffeescript&#34;&gt;2. Ejemplo simple en Coffeescript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/3.package-en-javascript&#34;&gt;3. Ejemplo simple en javascript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/4.atom-api&#34;&gt;4. Atom API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/31/5.writing-test&#34;&gt;5. Writing tests&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/01/6.writing-config-menu&#34;&gt;6. Writing config menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/1.crear-un-package&#34;&gt;1. Estructura de un package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/2.package-en-coffeescript&#34;&gt;2. Ejemplo simple en Coffeescript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/3.package-en-javascript&#34;&gt;3. Ejemplo simple en javascript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/4.atom-api&#34;&gt;4. Atom API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/31/5.writing-test&#34;&gt;5. Writing tests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/01/6.writing-config-menu&#34;&gt;6. Writing config menu&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Cuando abrimos el munú de preferencias de Atom situado en Edit&amp;gt;Preferences podemos ir a la pestaña packages y elegir alguno de ellos para entrar en el menú de preferencias de ese package.&lt;/p&gt;
@@ -1237,8 +1238,7 @@ config:
 
 &lt;p&gt;con el código anterior se generará un menu desplegable como el siguiente:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/misuher/myStaticSite/master/content/post/Atom/6.1.png&#34; alt=&#34;checkbox&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/misuher/myStaticSite/master/content/post/Atom/6.1.png&#34; alt=&#34;checkbox&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Al tener la posibilidad de definirlos en diferentes partes el orden en que aparecerán vendrá definido por el campo &lt;code&gt;order&lt;/code&gt;.&lt;/p&gt;
 
@@ -1252,8 +1252,7 @@ config:
     order: 1
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/misuher/myStaticSite/master/content/post/Atom/6.2.png&#34; alt=&#34;menu&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/misuher/myStaticSite/master/content/post/Atom/6.2.png&#34; alt=&#34;menu&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;también tenemos textfields:&lt;/p&gt;
 
@@ -1265,8 +1264,7 @@ config:
     order: 2
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/misuher/myStaticSite/master/content/post/Atom/6.3.png&#34; alt=&#34;textfield&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/misuher/myStaticSite/master/content/post/Atom/6.3.png&#34; alt=&#34;textfield&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;como-referenciar-los-valores-obtenidos:93c8705e8bddb16c08d4c3b627ff33ba&#34;&gt;Como referenciar los valores obtenidos&lt;/h2&gt;
 
@@ -1281,19 +1279,19 @@ boxResult = atom.config.get(&#39;firstexample.example3&#39;) //string written
     
     <item>
       <title>5.writing test</title>
-      <link>http://www.misuher.com/blog/2015/07/31/5.writing-test</link>
+      <link>/localhost/blog/2015/07/31/5.writing-test</link>
       <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/07/31/5.writing-test</guid>
+      <guid>/localhost/blog/2015/07/31/5.writing-test</guid>
       <description>&lt;p&gt;En esta quinta parte vamos a ver como escribir test con jasmine&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/1.crear-un-package&#34;&gt;1. Estructura de un package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/2.package-en-coffeescript&#34;&gt;2. Ejemplo simple en Coffeescript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/3.package-en-javascript&#34;&gt;3. Ejemplo simple en javascript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/4.atom-api&#34;&gt;4. Atom API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/31/5.writing-test&#34;&gt;5. Writing tests&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/01/6.writing-config-menu&#34;&gt;6. Writing config menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/1.crear-un-package&#34;&gt;1. Estructura de un package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/2.package-en-coffeescript&#34;&gt;2. Ejemplo simple en Coffeescript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/3.package-en-javascript&#34;&gt;3. Ejemplo simple en javascript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/4.atom-api&#34;&gt;4. Atom API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/31/5.writing-test&#34;&gt;5. Writing tests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/01/6.writing-config-menu&#34;&gt;6. Writing config menu&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Creamos un archivo dentro de la carpeta /spec que se llame como eel archivo que queremos testear terminado en -spec, en nuestro caso será &lt;code&gt;firstexample-spec.coffe&lt;/code&gt;.&lt;/p&gt;
@@ -1358,62 +1356,27 @@ boxResult = atom.config.get(&#39;firstexample.example3&#39;) //string written
     </item>
     
     <item>
-      <title>3.package en javascript</title>
-      <link>http://www.misuher.com/blog/2015/07/30/3.package-en-javascript</link>
-      <pubDate>Thu, 30 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.misuher.com/blog/2015/07/30/3.package-en-javascript</guid>
-      <description>&lt;p&gt;En esta tercera parte vamos a ver un hello world sencillo en Javascript&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/1.crear-un-package&#34;&gt;1. Estructura de un package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/2.package-en-coffeescript&#34;&gt;2. Ejemplo simple en Coffeescript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/3.package-en-javascript&#34;&gt;3. Ejemplo simple en javascript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/4.atom-api&#34;&gt;4. Atom API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/31/5.writing-test&#34;&gt;5. Writing tests&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/01/6.writing-config-menu&#34;&gt;6. Writing config menu&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Dado que Coffeescript compila a Javascript no es de extrañar que esto sea posible, aunque es raro ver un package escrito en puro javascript.&lt;/p&gt;
-
-&lt;p&gt;Para ser escueto los pasos son exactamente los mismo que en el paso 2, lo único que cambia es el código que meteremos en &lt;code&gt;lib/ejemplo.js&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;module.exports = {
-    activate: function(){
-        atom.commands.add(&#39;css-selector-or-DOM-element&#39;, &#39;firstexamplejavascript:convert&#39;, this.convert);
-    },
-
-    convert: function(){
-        var editor = atom.workspace.getActivePaneItem();
-    }
-};
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
       <title>1.Crear un package</title>
-      <link>http://www.misuher.com/blog/2015/07/30/1.crear-un-package</link>
+      <link>/localhost/blog/2015/07/30/1.crear-un-package</link>
       <pubDate>Thu, 30 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.misuher.com/blog/2015/07/30/1.crear-un-package</guid>
+      <guid>/localhost/blog/2015/07/30/1.crear-un-package</guid>
       <description>&lt;p&gt;Este es la primera parte de una serie para dar a conocer lo básico referente a la creación de packages para el editor Atom&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/1.crear-un-package&#34;&gt;1. Estructura de un package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/2.package-en-coffeescript&#34;&gt;2. Ejemplo simple en Coffeescript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/3.package-en-javascript&#34;&gt;3. Ejemplo simple en javascript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/30/4.atom-api&#34;&gt;4. Atom API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/07/31/5.writing-test&#34;&gt;5. Writing tests&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.misuher.com/blog/2015/08/01/6.writing-config-menu&#34;&gt;6. Writing config menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/1.crear-un-package&#34;&gt;1. Estructura de un package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/2.package-en-coffeescript&#34;&gt;2. Ejemplo simple en Coffeescript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/3.package-en-javascript&#34;&gt;3. Ejemplo simple en javascript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/4.atom-api&#34;&gt;4. Atom API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/31/5.writing-test&#34;&gt;5. Writing tests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/01/6.writing-config-menu&#34;&gt;6. Writing config menu&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Los packages se pueden desarrollar tanto en Coffeescript como en javascript, aunque la mayoría de los que se pueden encontrar por internet están escritos en Coffeescript.&lt;/p&gt;
 
 &lt;p&gt;Para generar una carpeta con la estructura que debe seguir un paquete, desde el propio Atom lanzamos la paleta de comandos con &lt;code&gt;ctrl+alt+p&lt;/code&gt; y escribimos &lt;strong&gt;generate package&lt;/strong&gt;. nos preguntará la ruta donde queremos generarlo y obtendremos una estructura como la siguiente:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/misuher/myStaticSite/master/content/post/Atom/1.1.png&#34; alt=&#34;skeleton&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/misuher/myStaticSite/master/content/post/Atom/1.1.png&#34; alt=&#34;skeleton&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Descripción de las carpetas:
 *   keymaps = los keybinds de los comandos del package&lt;/p&gt;
@@ -1444,6 +1407,49 @@ boxResult = atom.config.get(&#39;firstexample.example3&#39;) //string written
 &lt;li&gt;Comandos creados por el package&lt;/li&gt;
 &lt;/ol&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.package en Coffeescript</title>
+      <link>/localhost/blog/2015/07/30/2.package-en-coffeescript</link>
+      <pubDate>Thu, 30 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/localhost/blog/2015/07/30/2.package-en-coffeescript</guid>
+      <description>&lt;p&gt;En esta segunda parte vamos a ver un hello world sencillo en Coffeescript&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/1.crear-un-package&#34;&gt;1. Estructura de un package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/2.package-en-coffeescript&#34;&gt;2. Ejemplo simple en Coffeescript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/3.package-en-javascript&#34;&gt;3. Ejemplo simple en javascript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/30/4.atom-api&#34;&gt;4. Atom API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/07/31/5.writing-test&#34;&gt;5. Writing tests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;localhost/blog/localhost/blog/2015/08/01/6.writing-config-menu&#34;&gt;6. Writing config menu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Empezaremos eliminando el contenido de la carpeta lib y creando nuestro propio archivo &lt;code&gt;ejemplo.coffe&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;module.exports =
+    activate: -&amp;gt;
+        atom.commands.add &#39;atom-workspace&#39;, &amp;quot;ascii-art:convert&amp;quot;, =&amp;gt; @convert()
+
+    convert: -&amp;gt;
+        editor = atom.workspace.getActivePaneItem()
+        editor.insertText(&#39;Hello, World!&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Con esto conseguimos vincular nuestro comando &lt;code&gt;firstexample:convert&lt;/code&gt; para que invoque al método convert. Convert obtiene del editor la posicion del cursor y escribe en ella &lt;em&gt;Hello, World!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Para que los cambios sean detectados por Atom ejecutamos la paleta de comandos con &lt;code&gt;ctrl+alt+p&lt;/code&gt; y ejecutamos window:reload. Si volvemos a invocar la paleta de comandos con &lt;code&gt;ctrl+alt+p&lt;/code&gt; y buscamos nuesto comando crado vemos que no es firstexample:convert sino firstexample:toggle.&lt;/p&gt;
+
+&lt;p&gt;Toggle es el comando que viene definido por defecto al crear el pacakge con el generador de Atom. Para decirle a Atom que utilice el nuestro tenemos que editar el archivo &lt;code&gt;package.json&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;quot;activationCommands&amp;quot;: {
+    &amp;quot;atom-workspace&amp;quot;: &amp;quot;firstexample:convert&amp;quot;
+},
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ahora si podemos recargar el package e invocar el comando sin problemas.&lt;/p&gt;
 </description>
     </item>
     

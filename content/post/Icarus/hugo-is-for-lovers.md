@@ -1,6 +1,6 @@
 +++
 banner = "banners/placeholder.png"
-categories = ["Lorem"]
+categories = []
 date = "2015-08-03T13:39:46+02:00"
 menu = ""
 tags = []

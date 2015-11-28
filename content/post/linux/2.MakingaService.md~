@@ -1,8 +1,13 @@
----
-date: 2015-07-11T19:18:12Z
-title: Crear un servicio en Linux
-tags: ["Linux"]
----
++++
+date = "2015-11-01"
+title = "Crear un servicio en Linux"
+tags = ["LINUX"]
+images = []
+menu = "Tags"
+banner = "banners/bash.jpg"
+categories = ["LINUX"]
++++
+
 Los servicios de linux son útiles a la hora de gestionar daemons del sistema y de hacer que se ejecuten al arrancar el sistema.
 <!--more-->
 
@@ -28,7 +33,7 @@ Dentro de este archivo escribiremos el siguiente contenido en bash:
 	DESC="Demonio de miServicio"
 	PIDFILE="/var/run/${NAME}.pid"
 	LOGFILE="/var/log/${NAME}.log"
- 
+
 	#ruta del script que invoca el servicio
 	DAEMON="/ruta/a/script.sh"
 
@@ -45,7 +50,7 @@ Dentro de este archivo escribiremos el siguiente contenido en bash:
 	    	start-stop-daemon --stop --pidfile $PIDFILE --retry 10
     		log_end_msg $?
 	}
- 
+
 	case "$1" in
     	start)
         	do_start
@@ -66,7 +71,7 @@ Dentro de este archivo escribiremos el siguiente contenido en bash:
         	exit 1
         	;;
 	esac
- 
+
 	exit 0
 
 Por ultimo habrá que darle permisos de ejecución:
